@@ -1,2 +1,3 @@
 # syntra
-Python jaargang 1
+
+Dit is de cursus Python voor jaargang 1
