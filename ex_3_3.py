@@ -1,4 +1,4 @@
-def do_foortime(f):
+def do_fourtime(f):
     f()
     f()
     f()
@@ -12,10 +12,20 @@ def grid_v():
 
 
 grid_h()
-do_foortime(grid_v)
+if __name__ == "__main__":
+    do_fourtime(grid_v)
 grid_h()
-do_foortime(grid_v)
+if __name__ == "__main__":
+    do_fourtime(grid_v)
 grid_h()
+
+
+
+
+
+
+
+
 
 
 
