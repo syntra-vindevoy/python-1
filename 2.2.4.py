@@ -1,80 +1,13 @@
-import datetime
 
-
-leaf_time  datetime.time.strftime("06, 52, 0")
-slow_time = datetime.time.strftime("0, 8, 15")
-fast_time = datetime.time.strftime("0, 7, 12")
-print(slow_time + fast_time)
-
-
-
-
-
-
-
-
-
-#f I leave my house at 6:52 am and run 1 mile at an easy pace (8:15 per mile),
-# then 3 miles at tempo (7:12 per mile) and 1 mile at easy pace again, what time do I get home for breakfast?
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+min = 60
+second = min / 60
+uur = 60 * min
+slow = 8 * min + 15
+fast = 7 * min + 12
+total_run = (2 * slow)+(3*fast)
+run_in_min = total_run / uur
+
+print(run_in_min)
 
 
 
