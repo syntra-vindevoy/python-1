@@ -1,16 +1,17 @@
 
 
-def print_grid(stripes):
+def print_grid(h, b, stripes):
 
-    print('+', ('-' * stripes + '+') * stripes)
+    print('+', ('-' * stripes + '+') * b)
 
-    for strip in range(stripes):
+    for strip in range(h):
 
         for stripe in range(stripes):
 
-            print("|", (" " * stripes + "|") * stripes)
+            print("|", (" " * stripes + "|") * b)
 
-        print('+', ('-' * stripes + '+') * stripes)
+        print('+', ('-' * stripes + '+') * b)
 
 
-print_grid(5)
+if __name__ == '__main__':
+    print_grid(6, 12, 5)
