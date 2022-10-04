@@ -1,11 +1,25 @@
-import math as mt
-import datetime
-time = datetime.time(9, 0, 0, 0)
-p = mt.pi
+for i in range(10, 0, -1):
+    print(i)
 
-test = p
 
-print(test)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
