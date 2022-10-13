@@ -1,0 +1,20 @@
+from datetime import datetime
+
+
+def fac(n: int)-> int:
+    for i in range(2, n):
+       n *= i
+
+    return n
+
+
+if __name__ == "__main__":
+    start = datetime.now()
+
+    for _ in range(1000):
+        fac(10)
+
+        end = datetime.now()
+
+        print(end - start)
+

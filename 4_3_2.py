@@ -1,17 +1,15 @@
+
 import turtle
 
 
-bob = turtle.Turtle()
+def square(t,l):
+    for _ in range(4):
+        t.fd(l)
+        t.lt(90)
 
 
-n = 360
-
-for _ in range(n):
-    bob.fd(600 / n)
-    bob.lt(360 / n)
-
-
-turtle.mainloop()
-
-#if __name__ == "__main__":
+if __name__ == "__main__":
+    bob = turtle.Turtle()
+    square(bob, 100)
+    turtle.mainloop()
 
