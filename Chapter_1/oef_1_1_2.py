@@ -1,0 +1,2 @@
+name="ward
+print(name)
