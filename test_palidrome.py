@@ -4,9 +4,9 @@ def palindrome_varia(word2):
     if a == b:
         print("right, this is a palindrome")
     else:
-        print"omg...this is not a palindrome")
+        print("omg...this is not a palindrome")
 
 palindrome_varia("allen")
-palindrome_varia('bob')
-palindrome_varia('otto')
-palindrome_varia('redivider')
+palindrome_varia("bob")
+palindrome_varia("otto")
+palindrome_varia("redivider")

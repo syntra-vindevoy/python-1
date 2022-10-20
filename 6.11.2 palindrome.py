@@ -8,7 +8,6 @@ def middle(word):
     return word[1:-1]
 
 def is_palindrome(word):
-    """Returns True if word is a palindrome."""
     if len(word) <= 1:
         return True
     if first(word) != last(word):
