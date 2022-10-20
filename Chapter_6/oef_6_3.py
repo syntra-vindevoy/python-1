@@ -22,6 +22,13 @@ def is_palindrome(word):
         return False
 
 
+def is_palindrome_easy(word):
+    return word == word[::-1]
+
+
 if __name__ == "__main__":
-    print(is_palindrome("redivider"))
+    assert is_palindrome_easy("bob")
+    assert not is_palindrome_easy("ward")
+    assert is_palindrome("bob")
+    assert not is_palindrome("ward")
 
