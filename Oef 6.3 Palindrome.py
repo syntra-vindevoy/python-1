@@ -13,8 +13,8 @@ def middle(word):
 def length(word):
 
     for i in range(int(len(word) / 2)):
-        return word[0:i-1]
-     #   i = i-1
+        return word[0:i:1]
+            i = i-1
 
 print(length(a))
 """
