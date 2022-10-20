@@ -9,14 +9,17 @@ def recursive(n):
     return x
 
 
+def term(n):
+    return (2 * (2 ** 0.5) / 9801) * (recursive(4*n) * (1103 + 26390 * n)) / ((recursive(n) ** 4) * 396 ** (4*n))
+
+
 k = 0
-term = (2 * (2 ** 0.5) / 9801) * (recursive(4*k) * (1103 + 26390 * k)) / ((recursive(k) ** 4) * 396 ** (4*k))
+
 estimated_pi = 0
 
-while term > 0.1 ** 15:
-    term = (2 * (2 ** 0.5) / 9801) * (recursive(4*k) * (1103 + 26390 * k)) / ((recursive(k) ** 4) * 396 ** (4*k))
+while term(n=k) > 0.1 ** 15:
+    estimated_pi += term(n=k)
     k += 1
-    estimated_pi += term
 
 
 print(k, 1/estimated_pi, math.pi)
