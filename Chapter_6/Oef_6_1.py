@@ -14,3 +14,9 @@ def c(x, y, z):
     square = b(total)**2
     return square
 
+x = 1
+y = x + 1
+print(c(x,y+3, x+y))
+
+
+
