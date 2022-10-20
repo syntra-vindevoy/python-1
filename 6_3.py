@@ -24,7 +24,9 @@
 def is_palindrome():
     s = input("what word?")
 
-    if s.lower().split() == s.lower().split()[::-1]:
+
+    if s == s[::-1]:
+
         print("true")
     else:
         print("false")
@@ -32,6 +34,9 @@ def is_palindrome():
 
 
 is_palindrome()
+
+
+
 
 
 
