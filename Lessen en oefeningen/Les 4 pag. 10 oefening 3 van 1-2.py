@@ -18,8 +18,9 @@
 
 average_kilometers = (10/42)
 an_mile_to_kilometer = 1.61
-seconds = 0.42
-average_pace = 42/6.1
-total_minutes_in_seconds = (42*60) + seconds
+seconds = 42
+average_pace = 2562/6.2
+total_minutes_in_seconds = ((42*60) + seconds)
 print(total_minutes_in_seconds)
-print((average_pace) + seconds)
+print(average_pace)
+
