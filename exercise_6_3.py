@@ -31,6 +31,26 @@ def middle(word):
     return word[1:-1]
 
 
-s = "vindevogel"
-test = s[5:-4:-1]
+def is_palindrome(word):
+    return word == word[::-1]
+
+
+# s = "vindevogel"
+# test = s[5::-1]
+# print(test)
+
+
+test = middle("amai")
 print(test)
+test = middle("fun")
+print(test)
+test = middle("")
+print(test)
+
+pal = "redivider"
+test = is_palindrome(pal)
+print(f"Is '{pal}' a palindrome? {test}")
+
+pal = "noredivider"
+test = is_palindrome(pal)
+print(f"Is '{pal}' a palindrome? {test}")
