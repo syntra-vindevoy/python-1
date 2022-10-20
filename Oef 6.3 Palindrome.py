@@ -16,6 +16,8 @@ def is_palindrome(word):
 
 
 
+
+
 #print(first(a))
 #print(last(a))
 #print(middle(a))
