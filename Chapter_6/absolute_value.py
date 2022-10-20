@@ -15,6 +15,5 @@ if __name__ == "__main__":
             assert absolute_value(i) == i, f"Value: {i}"
 
 
-    def test_float():
-        
+
 
