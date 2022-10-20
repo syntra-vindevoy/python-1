@@ -2,11 +2,11 @@ def palindrome_varia(word2):
     a =word2
     b = word2[::-1]
     if a == b:
-        print("is a palindrome")
+        print("right, this is a palindrome")
     else:
-        print("is not a palindrome")
+        print"omg...this is not a palindrome")
 
-print(palindrome_varia("allen"))
-print(palindrome_varia('bob'))
-print(palindrome_varia('otto'))
-print(palindrome_varia('redivider'))
+palindrome_varia("allen")
+palindrome_varia('bob')
+palindrome_varia('otto')
+palindrome_varia('redivider')
