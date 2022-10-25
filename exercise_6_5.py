@@ -8,5 +8,7 @@ Write a function called gcd that takes parameters a and b and returns their grea
 
 import math
 
-test = math.gcd(2412, 3206)
+test = math.gcd(1872, 4056)
 print(test)
+
+
