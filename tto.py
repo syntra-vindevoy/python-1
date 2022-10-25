@@ -1,4 +1,5 @@
-price = 24.95
-price_discount = price -price/100 * 40
-result = round(price_discount * 60 + 3 + (59*0.75),2)
-print(result)
+import time
+total_seconds =time.time()
+seconds = total_seconds % 60
+days = total_seconds
+print(total_seconds)
