@@ -25,4 +25,4 @@ print(f"Totaal van ingegeven getallen = {s}")
 
 # dummyproof maken
 # if type(x) is not int:
-# break / continue = net zoals brake
+# break / continue = net zoals break maar start de while opnieuw
