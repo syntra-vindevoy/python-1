@@ -11,5 +11,6 @@ while True:
         break
     s += n
 print(f"\nDe som is: {s}")
+print("De som is" ,s)
 
 #if type (x) is not int
