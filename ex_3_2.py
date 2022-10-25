@@ -8,4 +8,4 @@ def print_spam(t):
 
 
 if __name__ == "__main__":
-    do_twice("print_spam", "toto")
+    do_twice(print_spam, "toto")
