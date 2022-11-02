@@ -4,13 +4,14 @@ import math
 def mysqrt(a, x):
     epsilon = 0.00000001
     while True:
+        # print(x)
         y = (x + a / x) / 2
 
         if abs(y - x) < epsilon:
-            return y
             break
 
         x = y
+    return y
 
 
 def test_square_root():

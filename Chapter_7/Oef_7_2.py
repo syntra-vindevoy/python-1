@@ -9,7 +9,11 @@ def eval_loop():
             break
 
         print(eval(calc))
+        global y
+        y = eval(calc)
+    return y
 
 
 if __name__ == "__main__":
     eval_loop()
+    print(y)
