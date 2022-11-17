@@ -62,21 +62,3 @@ print(total_prices)
 print(round(total_prices,2))
 print("price is " + str(round(total_prices,2)))
 
-
-print("exercise 2.2.3")
-
-easymileseconds = 2 * (8 * 60 + 15 )
-hardmileseconds = 3* (3 * 7 + 12)
-tijdstipgestart = 6 * 60 * 60 + 52 * 60
-
-
-allseconds = easymileseconds + hardmileseconds + tijdstipgestart
-print(allseconds)
-
-end_hours = allseconds // 3600
-end_minutes = (allseconds // 60)
-end_seconds = allseconds - end_hours * 3600 - end_minutes * 60
-
-print(end_hours)
-print(end_minutes)
-print(end_seconds)
