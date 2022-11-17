@@ -8,8 +8,6 @@ def isprime(num):
     return True
 
 
-list = []
-
 before = datetime.now()
 
 som = 0
@@ -18,7 +16,7 @@ n = 1
 while True:
     if isprime(n) == True:
         som += 1
-        if som == 10000:
+        if som == 100000:
             print(n)
             break
         n += 1
