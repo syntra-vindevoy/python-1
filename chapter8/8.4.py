@@ -14,5 +14,5 @@ def rotate_word(word: str, number: int) -> str:
     return new_word
 
 
-print(rotate_word('cubed', 10))
+assert(rotate_word('cubed', 10) == 'melon')
 
