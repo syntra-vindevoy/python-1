@@ -1,21 +1,10 @@
-#def test(my_string, letter):
-#   sum(char == ''letter'' for char in my_string)
 
-#print (test ('bananaa' ,a))
-def count (word, letter):
-           c = 0
+def rotate_word(word, shift):
+    """Uses Ceasar cypher to encrypt given word using given shift."""
+    rotated_word = ''
+    for letter in word:
+        rotated_word += chr(ord(letter) + shift)
+    return rotated_word
 
-           for w in word:
-               if letter == w:
-                   c += 1
-            return c
-print ("banana" .count("a"))
-
-#replace leter with blank string
-
-
-def one_liner_count(word, letter):
-    return len(word) - len(word.replace (letter , ""))
-
-assert one_liner_count("banana, "a"") == 3
-assert oneliner_count("banana", "n") ==2
+print(rotate_word('cheer', 7))
+print(rotate_word('IBM', -1))
