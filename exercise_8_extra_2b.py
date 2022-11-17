@@ -19,9 +19,9 @@ def primes(n):
 
 
 start = dt.datetime.now()
-test = primes(104724)
+test = primes(1299710)
 end = dt.datetime.now()
-print(test[9999])
+print(test[99999])
 print(end - start)
 
 # 10000 = 104723
