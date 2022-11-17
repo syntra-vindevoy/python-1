@@ -13,7 +13,7 @@ from __future__ import print_function, division
 
 import turtle
 
-from Hoofdstuk4.arc import arc
+from Hoofdstuk_4.arc import arc
 
 
 def petal(t, r, angle):

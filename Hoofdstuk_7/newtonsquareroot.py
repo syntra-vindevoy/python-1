@@ -6,11 +6,11 @@ def newton_square(a):
     while True:
         y = (x + a/x) / 2
         if abs(y-x) < epsilon:
-            break
+            return y
         x = y
-        return y
+
 
 def test_square_root(a):
      print(a, newton_square(a), math.sqrt(a), abs((newton_square(a) - math.sqrt(a))))
 
-test_square_root(67)
+test_square_root(4222)
