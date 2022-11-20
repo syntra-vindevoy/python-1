@@ -1,5 +1,5 @@
 import turtle
-import  math
+import math
 
 
 length = 100
