@@ -16,8 +16,8 @@ def day_of_the_week(y, m, d):
 
 
 # Driver Code
-day = 13
-month = 7
-year = 2017
+day = 19
+month = 11
+year =2022
 
 print(day_of_the_week(year, month, day))
