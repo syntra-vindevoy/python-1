@@ -14,6 +14,4 @@ if __name__ == "__main__":
         for i in range(0, 6):
             assert absolute_value(i) == i, f"Value: {i}"
 
-
-
-
+    test1()

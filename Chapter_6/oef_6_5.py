@@ -6,5 +6,5 @@ def gcd(a, b):
 
 
 if __name__ == "__main__":
-    print(gcd(17,0))
+    print(gcd(15,12))
 

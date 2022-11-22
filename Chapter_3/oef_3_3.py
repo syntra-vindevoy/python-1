@@ -12,4 +12,4 @@ def draw_grid(h, v, s):
 
 
 if __name__ == "__main__":
-    draw_grid(2, 4, 3)
+    draw_grid(3, 5, 6)

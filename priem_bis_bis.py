@@ -10,19 +10,32 @@ def isprime(num):
 
 before = datetime.now()
 
-som = 1
+l=[2]
+som =1
+n =3
 
-n = 3
-
-while True:
-    if isprime(n):
-        som += 1
-        if som == 10000:
-            print(n)
+while len(l) <10000:
+    for i in l:
+        if n%i == 0:
             break
-    n += 2
+
+
+    else:
+        l.append(n)
+
+
+    n+=2
+
+
+print(l[-1])
+
+
+
+
+
+
+
 
 after = datetime.now()
 
 print(after - before)
-
