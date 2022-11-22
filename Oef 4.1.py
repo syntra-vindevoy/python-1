@@ -25,3 +25,4 @@ if __name__ == "__main__":
     square(bob, length)  # bob wordt parametere voor t
     turtle.mainloop()
 
+

@@ -7,3 +7,6 @@ def right_justify(txt):
 
 right_justify("Monty")
 right_justify("python")
+
+
+
