@@ -4,6 +4,3 @@ def no_e(word):
     return True
   else:
     return False
-
-
-
