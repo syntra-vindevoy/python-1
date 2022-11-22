@@ -21,4 +21,4 @@ assert day_of_the_week(1972, 12, 31) == 0
 
 
 
-print(day_of_the_week(year, month, day))
+print(day_of_the_week(2022, 11, 17))
