@@ -5,8 +5,7 @@ def is_leapyear(x):
 
 
 if __name__ == "__main__":
-
-    #Assert testen
+    # Assert testen
     assert is_leapyear(4)
     assert is_leapyear(8)
     assert not is_leapyear(9)
@@ -19,11 +18,3 @@ if __name__ == "__main__":
     assert not is_leapyear(2100)
     assert is_leapyear(2400)
     assert not is_leapyear(1900)
-
-
-
-
-
-
-
-
