@@ -2,8 +2,6 @@
 # the Tomohiko Sakamoto Algorithm
 
 
-# function to implement tomohiko
-# sakamoto algorithm
 def day_of_the_week(y, m, d):
     # array with leading number of days values
     t = [0, 3, 2, 5, 0, 3, 5, 1, 4, 6, 2, 4]
@@ -16,8 +14,8 @@ def day_of_the_week(y, m, d):
 
 
 # Driver Code
-day = 19
-month = 11
-year =2022
+day = 1
+month = 1
+year = 1
 
 print(day_of_the_week(year, month, day))
