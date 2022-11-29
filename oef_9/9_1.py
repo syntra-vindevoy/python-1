@@ -9,7 +9,7 @@
 
 
 def characterCount():
-    fin = open("words.txt")
+    fin = open("../words.txt")
     for line in fin:
         words = line.strip()
         if len(words) > 19:

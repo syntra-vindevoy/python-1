@@ -1,6 +1,8 @@
 
 # function to implement tomohiko
 # sakamoto algorithm
+
+
 def day_of_the_week(y, m, d):
     # array with leading number of days values
     t = [0, 3, 2, 5, 0, 3, 5, 1, 4, 6, 2, 4]
