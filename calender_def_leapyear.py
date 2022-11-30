@@ -27,17 +27,14 @@ def print_calendar(month, year):
     r = z % 7
     r = (r + 7) % 7
 
-    # title
     print(" " * 4 + months[month] + " " + str(year))
     print("Mo Tu We Th Fr Sa Su")
-    # the calendar
 
     for i in range(1, monthdays[months[month]] + 1):
         if i == 1:
             print((" " * 3) * r, end="")
         if i < 10:
             print("", i, end=" ")
-
         elif i >= 10:
             print(i, end=" ")
         if (i + r) % 7 == 0:
@@ -45,9 +42,3 @@ def print_calendar(month, year):
 
 
 print_calendar(3, 2023)
-
-
-
-
-
-
