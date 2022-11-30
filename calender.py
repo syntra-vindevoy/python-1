@@ -23,7 +23,7 @@ def print_calendar(month, year):
         a = month + 10
     else:
         a = month - 2
-    b = 1  # The first day of the month
+    b = 0  # The first day of the month
     c = year % 100
     d = year // 100
     # Compute starting weekdays with algorithm
@@ -37,8 +37,8 @@ def print_calendar(month, year):
     # Print the title
     space = ' '
     print(space * 4 + months[month] + space + str(year))
-    print("Su Mo Tu We Th Fr Sa")
-
+    #print("Su Mo Tu We Th Fr Sa")
+    print("Mo Tu We Th Fr Sa Su")
     # Print out the calendar
     number = monthdays[months[month]]
     start_days = r
@@ -53,4 +53,4 @@ def print_calendar(month, year):
             print('\n', end='')
 
 
-print_calendar('11', '2020')
+print_calendar('11', '2022')
