@@ -31,6 +31,7 @@ def print_calendar(month, year):
     print("Mo Tu We Th Fr Sa Su")
 
     for i in range(1, monthdays[months[month]] + 1):
+
         if i == 1:
             print((" " * 3) * r, end="")
         if i < 10:
@@ -42,3 +43,5 @@ def print_calendar(month, year):
 
 
 print_calendar(3, 2023)
+
+#print("Time {:02}:{:02}".format(hours, minutes))
