@@ -16,7 +16,7 @@ def print_calendar(month, year):
         a = month + 10
     else:
         a = month - 2
-    b = 0  # The first day of the month
+    b = 0  #day 1
     c = year % 100
     d = year // 100
     w = (13 * a - 1) // 5
