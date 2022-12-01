@@ -1,7 +1,7 @@
 def find_number(n):
     counter = 1
     lowest = 0
-    highest = 10001
+    highest = 10000
     guess = int((highest-lowest)/2)
     while lowest != highest:
         if guess < n:
