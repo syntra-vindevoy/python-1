@@ -43,7 +43,3 @@ while True:
 
         elif keuze == "4":
             print(divide(num1, num2))
-
-        if keuze == "5":
-            break
-
