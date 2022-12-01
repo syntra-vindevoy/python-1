@@ -11,8 +11,8 @@ while True:
         break
 
     if keuze in ("1", "2", "3", "4", "5"):
-        num1 = int(input("Eerste nummer: "))
-        num2 = int(input("Tweede nummer: "))
+        num1 = float(input("Eerste nummer: "))
+        num2 = float(input("Tweede nummer: "))
 
         if keuze == "1":
             print(num1 + num2)
