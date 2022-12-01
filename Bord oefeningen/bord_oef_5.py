@@ -1,6 +1,4 @@
 import random
-
-
 def find_number(n):
     outcome = n
     count = 0
@@ -17,16 +15,13 @@ def find_number(n):
         elif guess > outcome:
             upper = guess
 
-
 if __name__ == "__main__":
     random.seed(0)
     a = random.randint(1, 10000)
     print(a)
-    find_number(1500)
+    find_number(899)
     assert find_number(1) == 1
     assert find_number(2) == 2
     assert find_number(5000) == 5000
     assert find_number(9999) == 9999
     assert find_number(10000) == 10000
-
-
