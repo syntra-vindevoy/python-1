@@ -7,16 +7,16 @@ while True:
     operation = input("1 for adding, 2 for substracting, 3 for multiplying, 4 for dividing, or Enter 0 to exit..\n")
     if operation == "0":
         break
-    else:
+    else:  # else is misschien niet nodig, aangezien sowieso een van de 5 waarden wordt ingegeven
         value = int(input("Enter value: "))
 
         if operation == "1":
             a += value
-        if operation == "2":
+        elif operation == "2":
             a -= value
-        if operation == "3":
+        elif operation == "3":
             a *= value
-        if operation == "4":
+        elif operation == "4":
             a /= value
         print(f"New value is: {a}")
 

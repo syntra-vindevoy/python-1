@@ -25,8 +25,8 @@ def find_number(n):
 if __name__ == "__main__":
     random.seed(0)
     a = random.randint(1, 10000)
-    #print(a)
-    find_number(500)
+    print(a)
+    find_number(1)
     assert find_number(1) == 1
     assert find_number(2) == 2
     assert find_number(5000) == 5000
