@@ -1,4 +1,6 @@
 import random
+
+
 def find_number(n):
     outcome = n
     count = 0
@@ -14,6 +16,7 @@ def find_number(n):
             lower = guess
         elif guess > outcome:
             upper = guess
+
 
 if __name__ == "__main__":
     random.seed(0)
