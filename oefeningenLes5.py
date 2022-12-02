@@ -17,4 +17,4 @@ def find_number(n):
         else:
             print(f"The answer is {guess} and i found it in {counter} times")
             break
-find_number(int(input("Give a number between 0 and 10000: ")))
+find_number(int(input("Enter a number between 0 and 10000: ")))
