@@ -15,7 +15,7 @@ def day_of_the_week(y, m, d):
 
 
 # Driver Code
-day = 13
+day = 14
 month = 7
 year = 2017
 
