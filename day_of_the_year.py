@@ -6,18 +6,19 @@ from leapyear import is_leapyear
 # It uses an import of the is_leapyear function that returns a boolean
 
 
-prompt = input("Please enter date as follows: dd/mm/yyyy \n")
+#prompt = input("Please enter date as follows: dd/mm/yyyy \n")
 
-day = int(prompt[:2])
-month = int(prompt[3:5])
-year = int(prompt[6:])
+#day = int(prompt[:2])
+#month = int(prompt[3:5])
+#year = int(prompt[6:])
 
-days_number = [31, 28 + 1 * is_leapyear(year), 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
-count = 0
+def day_of_the_year(year, month, day):
+    days_number = [31, 28 + 1 * is_leapyear(year), 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+    count = 0
 
-for i in range(month-1):
-    count += days_number[i]
+    for i in range(month-1):
+        count += days_number[i]
 
-count += day
+    count += day
 
-print(count)
+    return count
