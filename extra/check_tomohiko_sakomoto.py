@@ -6,12 +6,16 @@ jvdoorne, @Syntra, 17/11/2022
 
 
 def day_of_the_week(y, m, d, us_format=False):
-    # array with leading number of days values
+    # Array with leading number of days values
     t = [0, 3, 2, 5, 0, 3, 5, 1, 4, 6, 2, 4]
-    # if month is less than 3 reduce year by 1
+    # If month is less than 3 reduce year by 1
     if m < 3:
         y = y - 1
-    return (y + y // 4 - y // 100 + y // 400 + t[m - 1] + d) % 7 + us_format
+    dow = (y + y // 4 - y // 100 + y // 400 + t[m - 1] + d) % 7
+    # Assumes days are 1-indexed (!)
+    if us_format:
+        return dow + 1
+    return dow if dow != 0 else 7
 
 
 if __name__ == '__main__':
