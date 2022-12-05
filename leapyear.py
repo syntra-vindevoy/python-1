@@ -18,3 +18,5 @@ if __name__ == "__main__":
     assert not is_leapyear(2100)
     assert is_leapyear(2400)
     assert not is_leapyear(1900)
+    assert is_leapyear(2024)
+

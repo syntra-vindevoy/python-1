@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../github_test_ward/.idea/github_test_ward.iml" filepath="$PROJECT_DIR$/../github_test_ward/.idea/github_test_ward.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/syntra.iml" filepath="$PROJECT_DIR$/.idea/syntra.iml" />
     </modules>
   </component>

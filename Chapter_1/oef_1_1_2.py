@@ -1,2 +1,2 @@
-name="ward
+name = "ward"
 print(name)
