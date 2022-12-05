@@ -1,0 +1,11 @@
+Index: ex_3_2.py
+===================================================================
+diff --git a/ex_3_2.py b/ex_3_2.py
+--- a/ex_3_2.py	
++++ b/ex_3_2.py	
+@@ -8,4 +8,4 @@
+ 
+ 
+ if __name__ == "__main__":
+-    do_twice("print_spam", "toto")
++    do_twice(print_spam, "toto")
