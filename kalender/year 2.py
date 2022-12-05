@@ -32,20 +32,15 @@ def days_in_month(month, year2):
         return 28
 
 def week_day (day, month, year):
-    """Using the formula provided in the worksheet,
-    this function calculates the value 'd' for any given day of any month of any year and then returns the value."""
-    if isleapyear(year) == True:
-        listek=[5, 1, 2, 5, 0, 3, 5, 1, 4, 6, 2, 4]
-    else:
-        listek=[6, 2, 2, 5, 0, 3, 5, 1, 4, 6, 2, 4]
-    k=listek[month-1]
-    y=year%100
-    c=year//100
-    d=(day+k+y+y//4-2*(c%4))%7
-    return d
+    # array with leading number of days values
+    t = [0, 3, 2, 5, 0, 3, 5, 1, 4, 6, 2, 4]
 
-# function to implement tomohiko
-# sakamoto algorithm
+    # if month is less than 3 reduce year by 1
+    if (month < 3):
+        year = year - 1
+
+    return (year + year // 4 - year // 100 + year // 400 + t[month - 1] + day) % 7
+
 
 
 def name_day(b):
