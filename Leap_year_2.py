@@ -1,12 +1,14 @@
-def leapyear():
+def leapyear_2():
     year = int(input("Enter Year: "))
 
     if year % 4 == 0 and year % 100 != 0:
-        return True
+        print("True")
     elif year % 100 == 0:
-        return False
-    elif year % 400 ==0:
-        return True
+        print("False")
+    elif year % 400 == 0:
+        print("True")
     else:
-        return False
+        print("False")
 
+
+leapyear()
