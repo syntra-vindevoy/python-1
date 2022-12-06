@@ -1,14 +1,16 @@
+j = int(input("enter jaar: "))
 def leapyear():
-    j = int(input("enter jaar: "))
 
     if j % 4 == 0 and j % 100 != 0:
-        print ("true")
+        print("ja")
     elif j % 100 == 0:
-        print ("false")
+        print("neen")
     elif j % 400 == 0:
-        print ("true")
+        print("ja")
     else:
-        print ("false")
+        print("neen")
 
 
-leapyear()
+if __name__ == "__main__":
+    leapyear()
+
