@@ -15,21 +15,24 @@ def day_of_the_week(y, m, d):
     return (y + y // 4 - y // 100 + y // 400 + t[m - 1] + d) % 7
 
 
-# Driver Code
-day = 13
-month = 7
-year = 2017
 
-print(day_of_the_week(year, month, day))
+
+# Driver Code
+# day = 13
+# month = 7
+# year = 2017
+
+#print(day_of_the_week(year, month, day))
 
 if __name__ == "__main__":
-    assert day_of_the_week(2022, 11, 17)
-    assert day_of_the_week(2022, 11, 16)
-    assert day_of_the_week(1983, 3, 23)
+    assert day_of_the_week(2022, 11, 17) == 4
+    assert day_of_the_week(2022, 11, 16) == 3
+    assert day_of_the_week(1983, 3, 23) == 3
+    assert day_of_the_week(2022,12, 4) == 0
 
     print (day_of_the_week(2022, 11, 17))
     print (day_of_the_week(2022, 11, 16))
     print (day_of_the_week(1983, 3, 23))
     print(day_of_the_week(2022, 1, 1))
-
+    print(day_of_the_week(2022,12, 4))
 # This code is contributed by Nikita Tiwari.
