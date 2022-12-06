@@ -2,13 +2,13 @@ def leapyear():
     j = int(input("enter jaar: "))
 
     if j % 4 == 0 and j % 100 != 0:
-        return ("true")
+        print ("true")
     elif j % 100 == 0:
-        return ("false")
+        print ("false")
     elif j % 400 == 0:
-        return ("true")
+        print ("true")
     else:
-        return ("false")
+        print ("false")
 
 
 leapyear()
