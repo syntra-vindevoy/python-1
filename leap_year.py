@@ -12,13 +12,15 @@ def checkYear(year):
         return False
 
 
-# Driver Code
-year = 1900
-if (checkYear(year)):
-    print("Leap Year")
-else:
-    print("Not a Leap Year")
+# year = 2000
+# if (checkYear(year)):
+#     print("Leap Year")
+# else:
+#     print("Not a Leap Year")
 
-
-
+assert checkYear(4)
+assert not checkYear(1900)
+assert checkYear(2000)
+assert not checkYear(2001)
+assert not checkYear(2002)
 
