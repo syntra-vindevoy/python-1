@@ -4,9 +4,9 @@ jvdoorne, @Home, 27/12/2022
 
 
 def in_bisect(word: str, collection: list) -> bool:
-    low, high = 0, len(collection)
+    low, high = 0, len(collection) - 1
     while low <= high:
-        pivot = (high + low) // 2
+        pivot = low + (high - low) // 2
         guess = collection[pivot]
         if guess == word:
             return True
