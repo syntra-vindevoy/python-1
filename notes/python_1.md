@@ -1,33 +1,4 @@
-# Python 1 - Syntra
-
-*Beknopte lesnota's.*
-
-## Algemeen
-
-- Docent: [Yves Vindevogel](https://github.com/vindevoy)
-- Repository: [python-1 (GitHub)](https://github.com/syntra-vindevoy/python-1)
-- Cursus: [Think Python 2nd - Allen B. Downey](https://greenteapress.com/wp/think-python-2e)
-
-## Planning
-
-- Vol programma, 60 avonden (240u)
-- Einde voorzien rond eind mei (na afwezigheden wordt dit begin juni)
-
-| Onderdeel          | Leerstof                                          | Evaluatie               |
-|--------------------|---------------------------------------------------|-------------------------|
-| Leren programmeren | ThPy 1 t.e.m. 9                                   | examen, 06/12/2022      |
-| GIT                | Kunnen gebruiken                                  |                         |
-| Adanced Python     | ThPy 1 t.e.m. 14                                  | examen, xx/xx/xxxx      |
-| Databases          |                                                   | examen, xx/xx/xxxx      |
-| Advanced OOP       | Geen examen                                       |                         |
-| Groepswerk         | Model: Postgress, View: Flask, Controller: Logica | presentatie, xx/xx/xxxx |
-| Architectuur       | Komt er dit jaar nog bij                          | examen, xx/xx/xxxx      |
-
-## Licenties
-
-- [Jetbrains activation](https://www.jetbrains.com/store/post-purchase): code `H1QYBQBOM3` (vervallen)
-    - Gaat waarschijnlijk vernieuwd moeten worden, moest tegen 30/9 aangevraagd zijn.
-    - Syntra account gekoppeld aan JetBrains, dus zou automatisch moeten doorstromen.
+# Python 1 (Syntra): Think Python Chapter 1 - 9
 
 ## Les 01 - Di 13/09/2022
 
@@ -323,6 +294,20 @@ def prime() -> int:
 - `pathlib` <3 mogen we gebruiken -> +methods?
 - context manager `with` gebruiken
 
-## Les 17 - Di 22/11/22
+## Les 17 - Di 22/11/2022
 
 - GIT (zie powerpoint)
+
+## Les 18 - Di 29/11/2022
+
+- Gemist (Ziek)
+
+## Les 19 - Do 01/12/2022
+
+- Afwerken oefeningen die vorige week gegeven werden, ter voorbereiding van het examen. Ik heb er een aantal ingehaald:
+  - `extra/find_number.py`
+  - `extra/find_letter_bounds.py`
+
+## Examen - Di 06/12/2022
+
+- Zie repository op [GitHub](https://github.com/syntra-vindevoy/python1-jorick-2022-23/tree/examen-python-1)
