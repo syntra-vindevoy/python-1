@@ -162,5 +162,5 @@ cython_debug/
 # Synology
 .DS_Store
 
-# Don't host copyrighted file
+# Don't host copyrighted files
 /thinkpython2.pdf
